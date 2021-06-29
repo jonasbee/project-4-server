@@ -1,0 +1,109 @@
+[
+{
+  "model": "items.item",
+  "pk": 1,
+  "fields": {
+    "name": "Tomato",
+    "category": "Vegetable",
+    "icon": "https://res.cloudinary.com/djxh1yrnv/image/upload/v1622386022/tomato_b2bepi.svg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 2,
+  "fields": {
+    "name": "Pasta",
+    "category": "Pasta",
+    "icon": "https://res.cloudinary.com/djxh1yrnv/image/upload/v1622385991/pasta_hduuau.svg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 3,
+  "fields": {
+    "name": "Strawberry",
+    "category": "Fruit",
+    "icon": "https://res.cloudinary.com/djxh1yrnv/image/upload/v1622386015/strawberry_yvfqav.svg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 4,
+  "fields": {
+    "name": "Red grape",
+    "category": "Fruit",
+    "icon": "https://res.cloudinary.com/djxh1yrnv/image/upload/v1622385962/grapes_wedmip.svg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 5,
+  "fields": {
+    "name": "Orange",
+    "category": "Fruit",
+    "icon": "https://res.cloudinary.com/djxh1yrnv/image/upload/v1622385988/orange_maue5i.svg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 6,
+  "fields": {
+    "name": "Banana",
+    "category": "Fruit",
+    "icon": "https://res.cloudinary.com/djxh1yrnv/image/upload/v1622385968/banana_mggvt8.svg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 7,
+  "fields": {
+    "name": "Cucumber",
+    "category": "Vegetable",
+    "icon": "https://res.cloudinary.com/djxh1yrnv/image/upload/v1622386028/cucumber_jtsv2j.svg"
+  }
+},
+{
+  "model": "items.inventoryitem",
+  "pk": 1,
+  "fields": {
+    "expiry_date": "2021-06-30",
+    "quantity_number": 200,
+    "metric": "g",
+    "item": 1,
+    "user": 2
+  }
+},
+{
+  "model": "items.inventoryitem",
+  "pk": 2,
+  "fields": {
+    "expiry_date": "2021-06-25",
+    "quantity_number": 150,
+    "metric": "g",
+    "item": 3,
+    "user": 2
+  }
+},
+{
+  "model": "items.inventoryitem",
+  "pk": 3,
+  "fields": {
+    "expiry_date": "2021-06-19",
+    "quantity_number": 300,
+    "metric": "g",
+    "item": 6,
+    "user": 3
+  }
+},
+{
+  "model": "items.inventoryitem",
+  "pk": 4,
+  "fields": {
+    "expiry_date": "2021-06-26",
+    "quantity_number": 400,
+    "metric": "g",
+    "item": 4,
+    "user": 4
+  }
+}
+]

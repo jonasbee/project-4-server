@@ -1,0 +1,60 @@
+### GET all items
+GET http://localhost:8000/api/items/
+
+### GET all inventory-item per user
+GET http://localhost:8000/api/items/2/inventory/
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjIsImV4cCI6MTYyNDcxNDM2NX0.i-UeiX0IdJ7saLe8YAQJpWB4KQEJRdNdZPcb-LXzRrI
+
+### POST new inventory-item
+POST http://localhost:8000/api/items/inventory/new/
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjIsImV4cCI6MTYyNDcxNDM2NX0.i-UeiX0IdJ7saLe8YAQJpWB4KQEJRdNdZPcb-LXzRrI
+Content-Type: application/json
+
+{
+  "expiryDate": "2021-06-27",
+  "quantityNumber": 300,
+  "metric": "g",
+  "item": 2
+}
+
+### DELETE inventory-item
+DELETE http://localhost:8000/api/items/inventory/8/
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjIsImV4cCI6MTYyNDcxNDM2NX0.i-UeiX0IdJ7saLe8YAQJpWB4KQEJRdNdZPcb-LXzRrI
+
+### UPDATE inventory-item
+PUT http://localhost:8000/api/items/inventory/9/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjIsImV4cCI6MTYyNDYzNjc0MX0.j0-PG8YMjA_dH7-s3g5QXG_rc9a8tsSbRasjqud9KKI
+
+{
+  "expiry_date": "2021-06-29",
+  "quantity_number": 300,
+  "metric": "g",
+  "item": 2
+}
+
+
+### Register a User
+POST http://localhost:8000/api/auth/register/
+Content-Type: application/json
+
+{
+  "username": "Jack",
+  "email": "jack@email.com",
+  "profileImage": "image_jpg",
+  "preference": "meat",
+  "password": "pass",
+  "passwordConfirmation": "pass"
+}
+
+### Login a User
+POST http://localhost:8000/api/auth/login/
+Content-Type: application/json
+
+{
+  "email": "jonas@email.com",
+  "password": "JoBo21.05.1996"
+}
+
+### Get a user Profile
+GET http://localhost:8000/api/auth/profile/2/

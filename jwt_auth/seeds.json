@@ -1,0 +1,82 @@
+[
+{
+  "model": "jwt_auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$06YdSMZHPtJssLO4kDkz6b$6LNMVDAM9TT+Ra3hF6ZZntl3UkLl7T3/S1dRDAVDHBg=",
+    "last_login": "2021-06-18T15:46:54.851Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-06-17T16:07:18.423Z",
+    "email": "admin@email.com",
+    "profile_image": "",
+    "preference": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$eeFkUv5Y2F4ew4G2CqV6qM$eBwiLnapnotcA0mnY+RgChetYftzTXIJtXNMl4X1pqs=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Jonas",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-06-18T15:47:58Z",
+    "email": "jonas@email.com",
+    "profile_image": "https://profile-images.xing.com/images/b36e5a37689b6868320ad9b9f7675956-2/jonas-bolduan.1024x1024.jpg",
+    "preference": "vegan",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$JFJEB2TL4gV6Bi6ytE2Y7C$frKEsHGQumbCS1bdUx8a/9QKTjyadNjOGwq3jUIb0uk=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Dimi",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-06-18T15:49:05Z",
+    "email": "dimi@email.com",
+    "profile_image": "https://media-exp1.licdn.com/dms/image/C5603AQEtWkxbkxP1YQ/profile-displayphoto-shrink_200_200/0/1517488831253?e=1628121600&v=beta&t=RpHbmYp4XcFwWW99l4YiZEnOYNl6IrEwajjXl9vbo4U",
+    "preference": "vegetarian",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$VwVMY04KrtQO1EFa3suw0O$j8DVws0+y5YYkxwH5bX6GObzAOK/tCT5upwWqkIYpqU=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Abubakar",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-06-18T15:49:49Z",
+    "email": "abubakar@email.com",
+    "profile_image": "https://www.pokewiki.de/images/thumb/9/96/Sugimori_006.png/250px-Sugimori_006.png",
+    "preference": "pescetarian",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
